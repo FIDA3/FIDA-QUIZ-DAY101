@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>FIDA QUIZ PROGRAM </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="fida.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+	<div id="loader"></div>
+
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<div class="contact99-form-title">  <img src="fida.png" class="new" alt="" /></div>
+			<form id="submit-form" method="POST" name="google-sheet" class="contact100-form validate-form">
+				<span class="contact100-form-title">
+					<u>FIDA QIUZ PROGRAM</u>
+				</span>
+				<span class="contact1001-form-title">
+					<u>Question</u>
+				</span>
+				<span class="contact1003-form-title">
+					വിനോദങ്ങൾ വിഷാദത്തിലേക്ക് വഴി വെക്കുന്നുവോ...!
+              കളിച്ചു ചിരിച്ചു പഠിച്ച് വളരേണ്ട കുട്ടികൾ പരസ്പരം 
+               തമ്മിലടിക്കുന്ന ജീവനപഹരിക്കുന്ന ജീവനൊടുക്കുന്ന  
+               അവസ്ഥക്ക് അറുതി വരുത്തേണ്ടേ ....
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">നിങ്ങളുടെ പേര്</span>
+					<input class="input100" type="text" name="name" placeholder="നിങ്ങളുടെ പേര്  എഴുതുക">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<span class="label-input100">ഫോൺ നമ്പർ</span>
+					<input class="input100" type="text" name="MobileNumber" placeholder="ഫോൺ നമ്പർ എഴുതുക">
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+					<span class="label-input100">ക്ലാസ്സിൻ്റെ പേര്</span>
+					<input class="input100" type="text" name="className" placeholder="ക്ലാസ്സിൻ്റെ പേര് എഴുതുക">
+					<span class="focus-input100"></span>
+				</div>
+
+				
+
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<span class="label-input100">ഉത്തരം</span>
+					<textarea class="input100" name="ANSWER" placeholder="ഉത്തരം എഴുതുക..."></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn">
+							<span>
+								Submit
+								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+							</span>
+						</button>
+					</div>
+				</div>
+				<div class="fida">
+					<span class="contact1001-form-title">
+						FIDA
+					</span>
+					<span class="contact1002-form-title">
+						FRIENDS FOR ISLAMIC DEVOTED ACTIVITIES
+					</span>
+					<span class="contact1002-form-title">
+						11 TH BATCH OF DARUSSALAM THRQIYA
+					</span>
+				</div>
+				<div class="fida">
+					
+					<a href="https://www.instagram.com/fida_diu?r=nametag" class="social-icon">
+						<i class="fa fa-instagram m-l-r-auto " aria-hidden="true" ></i>
+					  </a>
+				</div>
+			
+				<p class="m-0">&copy; | Design by <a href="https://t.me/Shibinshapk"><u>Shibinsha</u></a></p>
+			</form>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+
+
+
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+  $("#submit-form").submit((e)=>{
+	  e.preventDefault()
+	  $.ajax({
+		  url:"https://script.google.com/macros/s/AKfycbzDQVYHoWvDPRBYpn0A3bikCDK9TEWBNF9oSSzQ6DlK4zRaE2S72ljfhHpvFCNAvWhT/exec",
+		  data:$("#submit-form").serialize(),
+		  method:"post",
+		  success:function (response){
+			swal({
+ 				 title: "Good job",
+ 				 text: "നിങ്ങളുടെ ഉത്തരം നങ്ങൾക്ക്  ലഭിച്ചു. നിങ്ങൾ ഈ ക്വിസ് മത്സരം പകടുതതിൽ നങ്ങൾക്ക് അതിയായ സന്തോഷമുണ്ട്",
+			  	 icon: "success",
+ 				 button: "success",
+				  
+				});
+			setInterval('location.reload()', 10000);
+			 // window.location.reload()
+			 // window.location.href="https://t.me/joinchat/7OYt1MTzgtVkMjU1"
+		  },
+		  
+		  error:function (err){
+			  alert("Something Error")
+
+		  }           
+	  })
+  })
+</script>
+
+
+<script src="http://code.jquery.com/jquery.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script>
+var spinner = $('#loader');
+$(function() {
+$('form').submit(function(e) {
+e.preventDefault();
+spinner.show();
+$.ajax({
+  url: "",
+  data: $("#submit-form").serialize(),
+  method: 'post',
+  dataType: 'JSON'
+}).done(function(resp) {
+  spinner.hide();
+  //alert(resp.status);
+});
+});
+});
+</script>
+
+</body>
+</html>
